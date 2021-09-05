@@ -9,14 +9,30 @@
 	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	
+	<!--hoja que yo agregue-->
+	<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="p-3 mb-2 bg-info text-dark">
-	<header>
+	
+	<?php if ( $controller =='login'):?>
+		<header>
+		<?php 
+			require_once('unregisterCabecera.php');
+		 ?>
+		</header>
+	<?php  else:?>
+		<header>
 		<?php 
 			require_once('cabecera.php');
 		 ?>
-	</header>
+		</header>
+	<?php endif; ?>
+
+	<!-- <header>
+		<php 
+			require_once('cabecera.php');
+		 ?>
+	</header> -->
 	<section>
 		<?php require_once('routing.php'); ?>
 	</section>

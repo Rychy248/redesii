@@ -98,6 +98,25 @@ class User
 		//die();
 		return $user_finded;
 	}
+	public static function tryLogin($user,$password){
+		$db=Db::getConnect();
+		$select=$db->prepare('SELECT * FROM usuarios_login WHERE usuario=:usuario AND contrasena=md5(:contrasena);');
+		$select->bindValue('usuario',$user);
+		$select->bindValue('contrasena',$password);
+		$select->execute();
+		$userDb=$select->fetch();
+		if ($userDb){
+			$user_finded = new User($userDb['usuario'],$userDb['contrasena'], $userDb['metodo'], $userDb['estado']);
+			return $user_finded;
+		}else{
+			return false;
+		}
+		
+		// }catch{
+		// 	return $user_finded = [];
+		//var_dump($alumno);
+		//die();
+	}
 
 	public static function update($user){
 		$db=Db::getConnect();

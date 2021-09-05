@@ -68,6 +68,29 @@ class UsuarioController
 		
 		
 	}
+	function login(){
+		if (!empty($_POST['usuario']) and !empty($_POST['password'])) {
+			$usuario=$_POST['usuario'];
+			$password=$_POST['password'];
+			$user=User::tryLogin($usuario,$password);
+			//$listaUsers[]=$user;
+			//var_dump($id);
+			//die();
+			if ($user){
+				require_once('Views/semana1/contenido.php');
+			}
+			else{
+				$findUser = false;
+				require_once('Views/login/bienvenido.php');
+			}
+		} else {
+			$listaUsers=User::all();
+			require_once('Views/login/bienvenido.php');
+		}
+		
+		
+	}
+
 
 	function error(){
 		require_once('Views/login/error.php');
