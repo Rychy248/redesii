@@ -2,8 +2,7 @@
 
 
 $controllers=array(
-	'login'=>['index','register','save','show','updateshow',
-			'update','delete','search','error','login'],
+	'login'=>['index','register','save','show','updateshow', 'update','delete','search','error','login'],
 	'semana1'=>['contenido','underConstruction'],
 	'semana2'=>['contenido'],
 	'semana3'=>['contenido'],
@@ -12,9 +11,7 @@ $controllers=array(
 	'semana6'=>['contenido'],
 	'semana7'=>['contenido'],
 	'semana8'=>['contenido'],
-	'semana9'=>['contenido'],
-	// 'curso'=>['index','register','save','show',
-	// 'updateshow','update','delete','search','error']
+	'semana9'=>['contenido']
 );
 
 if (array_key_exists($controller,  $controllers)) {
@@ -33,8 +30,8 @@ function call($controller, $action){
 
 	switch ($controller) {
 		case 'login':
-		require_once('Model/login.php');
-		$controller= new UsuarioController();
+		require_once('Model/Login.php');
+		$controller= new LoginController();
 		break;
 		case 'semana1':
 		require_once('Model/semana1.php');
@@ -72,13 +69,7 @@ function call($controller, $action){
 		require_once('Model/semana9.php');
 		$controller= new Semana9Controller();
 		break;
-		// case 'curso':
-		// require_once('Model/Curso.php');
-		// $controller= new CursoController();
-		// break;	
-		default:
-				# code...
-		break;
+	
 	}
 	$controller->{$action}();
 }

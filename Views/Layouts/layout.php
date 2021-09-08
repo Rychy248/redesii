@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Crud PHP</title>
+	<title>Redes de comutadoras II</title>
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -14,32 +14,15 @@
 </head>
 <body class="p-3 mb-2 bg-info text-dark">
 	
-	<?php if ( $controller =='login'):?>
-		<header>
-		<?php 
-			require_once('unregisterCabecera.php');
-		 ?>
-		</header>
-	<?php  else:?>
-		<header>
-		<?php 
-			require_once('cabecera.php');
-		 ?>
-		</header>
+	<?php if ( $controller == 'login'):?>
+		<header> <?php require_once('unregisterCabecera.php'); ?> </header>
+	<?php  else: ?>
+		<header> <?php require_once('cabecera.php'); ?> </header>
 	<?php endif; ?>
 
-	<!-- <header>
-		<php 
-			require_once('cabecera.php');
-		 ?>
-	</header> -->
-	<section>
-		<?php require_once('routing.php'); ?>
-	</section>
-	<footer>
-		<?php 
-			require_once('pie.php');
-		 ?>
-	</footer>
+	<section> <?php require_once('routing.php'); ?> </section>
+
+	<footer> <?php require_once('pie.php'); ?> </footer>
+
 </body>
 </html>

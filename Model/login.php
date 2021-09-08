@@ -67,7 +67,7 @@ class User
 		//die();
 		
 
-		$insert=$db->prepare('INSERT INTO usuarios_login VALUES (:usuario,:contrasena,:metodo,:estado)');
+		$insert=$db->prepare('INSERT INTO usuarios_login VALUES (:usuario,md5(:contrasena),:metodo,:estado)');
 		$insert->bindValue('usuario',$user->getUser());
 		$insert->bindValue('contrasena',$user->getPassword());
 		$insert->bindValue('metodo','md5');

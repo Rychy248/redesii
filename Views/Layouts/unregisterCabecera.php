@@ -5,6 +5,7 @@
     es necesario que usted se halle registrado, por favor ingrese sus credenciales
     para ello, o registrate! :).
   </p>
+  <!-- <p> <?php phpinfo() ?> s</p> -->
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" href="?controller=login&bienvenido=register">Logearse</a>

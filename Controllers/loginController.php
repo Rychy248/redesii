@@ -2,43 +2,44 @@
 /**
 * 
 */
-class UsuarioController
+class LoginController
 {
 	
-	function __construct()
-	{
+	function __construct(){
 		
 	}
 
 	function index(){
-		require_once('Views/login/bienvenido.php');
+		require_once('Views/Login/bienvenido.php');
 	}
 
 	function register(){
-		require_once('Views/login/register.php');
+		require_once('Views/Login/register.php');
 	}
 
 	function save(){
+		$estado = "";
 		if (!isset($_POST['estado'])) {
 			$estado="of";
 		}else{
 			$estado="on";
 		}
-		$user= new User($_POST['user'],$_POST['password'],"md5",$estado,);
+		$user= new User($_POST['user'],$_POST['password'],'md5',$estado,);
 		User::save($user);
-		$this->show();
+		$this->index();
+		//$this->show();
 	}
 
 	function show(){
 		$listaUsers=User::all();
 
-		require_once('Views/login/show.php');
+		require_once('Views/Login/show.php');
 	}
 
 	function updateshow(){
 		$usuario=$_GET['usuario'];
 		$user=User::searchByUser($usuario);
-		require_once('Views/login/updateshow.php');
+		require_once('Views/Login/updateshow.php');
 	}
 
 	function update(){
@@ -59,11 +60,11 @@ class UsuarioController
 			$listaUsers[]=$user;
 			//var_dump($id);
 			//die();
-			require_once('Views/login/show.php');
+			require_once('Views/Login/show.php');
 		} else {
 			$listaUsers=User::all();
 
-			require_once('Views/login/show.php');
+			require_once('Views/Login/show.php');
 		}
 		
 		
@@ -81,11 +82,10 @@ class UsuarioController
 			}
 			else{
 				$findUser = false;
-				require_once('Views/login/bienvenido.php');
+				require_once('Views/Login/bienvenido.php');
 			}
 		} else {
-			$listaUsers=User::all();
-			require_once('Views/login/bienvenido.php');
+			require_once('Views/Login/bienvenido.php');
 		}
 		
 		
@@ -93,7 +93,7 @@ class UsuarioController
 
 
 	function error(){
-		require_once('Views/login/error.php');
+		require_once('Views/Login/error.php');
 	}
 
 }

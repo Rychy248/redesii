@@ -5,7 +5,14 @@ html{
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(#7209b7, #3f37c0);
+  background: linear-gradient(#9a35d4, #4e43ec);
+}
+
+body a{
+  color:#ecd343;
+}
+body h1, body h2, body p, body h3{
+  color:#93f3f7;
 }
 .contenedor {
   margin: 50px auto;
@@ -44,3 +51,4 @@ body {
   padding: 15px;
   margin-top: 30px;
 }
+
