@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Redes de comutadoras II</title>
+	<title>Redes de computadoras II</title>
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">

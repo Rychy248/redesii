@@ -8,6 +8,16 @@ body {
   background: linear-gradient(#9a35d4, #4e43ec);
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+
+
 body a{
   color:#ecd343;
 }
