@@ -1,19 +1,13 @@
 <div>
-  <h1>Parciales</h1>
-
-
-    <!--#HEADER, TÍTULO Y E INDICE -->
-    <div>
-    <h1>Introducción de las Redes de Computadoras</h1>
-    <ol>
-      <li><a href="#definicion">Definición</a></li>
-    </ol>
+  <!--#HEADER, TÍTULO Y E INDICE -->
+  <div>
+    <h1>Parciales</h1>
   </div>
 
   <!-- #Contenido -->
   <div>
-    <h2 id="definicion">Definición</h2>
-    <p>Contenido</p>
+    <p>Esta semana fue dedicada a parciales, pero acá te dejamos un video para que te relajes</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oQyFFTh_YGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <!-- #Scroll en página -->

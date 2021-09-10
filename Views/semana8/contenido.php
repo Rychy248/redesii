@@ -1,27 +1,28 @@
 <div>
-  <h1>Tipos de transmisión de datos</h1>
-  <ol>
-    <li>Guiado</li>
-    <li>No guiado</li>
-</ol>
-
   <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
-    <h1>Introducción de las Redes de Computadoras</h1>
+    <h1>Tipos de transmisión de datos</h1>
     <ol>
-      <li><a href="#definicion">Definición</a></li>
+      <li><a href="#guiado">Guiado</a></li>
+      <li><a href="#noguiado">No Guiado</a></li>
     </ol>
   </div>
 
   <!-- #Contenido -->
   <div>
-    <h2 id="definicion">Definición</h2>
+    <h2 id="guiado">Guiado</h2>
+    <p>Contenido</p>
+  </div>
+ <!-- #Contenido -->
+ <div>
+    <h2 id="noguiado">No Guiado</h2>
     <p>Contenido</p>
   </div>
 
   <!-- #Scroll en página -->
   <div>
-
+    <a href="#guiado">Guiado</a>
+    <a href="#noguiado">No Guiado</a>
   </div>
 
 
