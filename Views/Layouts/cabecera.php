@@ -3,6 +3,7 @@
   <h2>Redes de computadoras II</h2>
 </div>
 <div class="container">
+
 <table>
         <tr>
           <th>
@@ -34,7 +35,9 @@
           <th>
           <li class="nav-item"><a href="?controller=semana9&&action=contenido">Semana 9</a></li>
           </th>
-
+          <th>
+          <li class="nav-item"><a href="?controller=login&&action=index">Cerrar Sesion! :)</a></li>
+          </th>
         </tr>
 
 
