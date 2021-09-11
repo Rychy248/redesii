@@ -1,7 +1,12 @@
 <div>
     <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
+<<<<<<< HEAD
     <h1>Modelo OSI</h1>
+=======
+    <h1>S E M A N A - 4</h1>
+    <h1>Modelo Osi</h1>
+>>>>>>> 1d5f44ce0c8973dcbdf267dbb2de53e32d6fc4ab
     <ol>
       <li><a href="#historia">Historia</a></li>
       <li><a href="#referencia">Modelo de referencia OSI</a></li>
