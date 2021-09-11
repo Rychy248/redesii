@@ -10,12 +10,12 @@
 
   <!-- #Contenido -->
   <div>
-    <h2 id="transmision">Transmisión</h2>
+    <h2 id="transmision" class="titulo2">Transmisión</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="direccionamiento">Direccionamiento Físico</h2>
+    <h2 id="direccionamiento" class="titulo2">Direccionamiento Físico</h2>
     <p>Contenido</p>
   </div>
 

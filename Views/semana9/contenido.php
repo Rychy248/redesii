@@ -11,17 +11,17 @@
   
   <!-- #Contenido -->
   <div>
-    <h2 id="quees">¿Qué es?</h2>
+    <h2 id="quees" class="titulo2">¿Qué es?</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/9G6fxwp9Ix4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="ventajas">Ventajas</h2>
+    <h2 id="ventajas" class="titulo2">Ventajas</h2>
     <p>contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="desventajas">Desventajas</h2>
+    <h2 id="desventajas" class="titulo2">Desventajas</h2>
     <p>contenido</p>
   </div>
 

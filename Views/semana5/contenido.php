@@ -1,7 +1,7 @@
 <div>
   <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
-    <h1>Parciales</h1>
+    <h1 class="titulo2">Parciales</h1>
   </div>
 
   <!-- #Contenido -->

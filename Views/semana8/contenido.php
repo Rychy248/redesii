@@ -10,12 +10,12 @@
 
   <!-- #Contenido -->
   <div>
-    <h2 id="guiado">Guiado</h2>
+    <h2 id="guiado" class="titulo2">Guiado</h2>
     <p>Contenido</p>
   </div>
  <!-- #Contenido -->
  <div>
-    <h2 id="noguiado">No Guiado</h2>
+    <h2 id="noguiado" class="titulo2">No Guiado</h2>
     <p>Contenido</p>
   </div>
 

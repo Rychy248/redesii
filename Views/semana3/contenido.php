@@ -13,27 +13,27 @@
 
   <!-- #Contenido -->
   <div>
-    <h2 id="fisica">Física</h2>
+    <h2 id="fisica" class="titulo2">Física</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="logica">Lógica</h2>
+    <h2 id="logica" class="titulo2">Lógica</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="usos">Usos de las redes de Computadoras</h2>
+    <h2 id="usos" class="titulo2">Usos de las redes de Computadoras</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="negocios">Aplicaciones en los negocios</h2>
+    <h2 id="negocios" class="titulo2">Aplicaciones en los negocios</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="domesticas">Aplicaciones domésticas</h2>
+    <h2 id="domesticas" class="titulo2">Aplicaciones domésticas</h2>
     <p>Contenido</p>
   </div>
 

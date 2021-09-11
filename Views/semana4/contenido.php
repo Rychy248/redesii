@@ -1,7 +1,7 @@
 <div>
     <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
-    <h1>Modelo Osi</h1>
+    <h1>Modelo OSI</h1>
     <ol>
       <li><a href="#historia">Historia</a></li>
       <li><a href="#referencia">Modelo de referencia OSI</a></li>
@@ -42,17 +42,17 @@
 
   <!-- #Contenido -->
   <div>
-    <h2 id="historia">Historia</h2>
+    <h2 id="historia" class="titulo2">Historia</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="referencia">Modelo de referencia OSI</h2>
+    <h2 id="referencia" class="titulo2">Modelo de referencia OSI</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="arquitectura">Arquitectura de capas</h2>
+    <h2 id="arquitectura" class="titulo2">Arquitectura de capas</h2>
       <h3 id="capa1">Capa 1: Capa física</h3>
       <p>Contenido</p>
       <h3 id="capa2">Capa 2: Capa de enlace de datos</h3>
@@ -70,12 +70,12 @@
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="nemotecnica">Regla nemotécnica</h2>
+    <h2 id="nemotecnica" class="titulo2">Regla nemotécnica</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="unidades">Unidades de datos</h2>
+    <h2 id="unidades" class="titulo2">Unidades de datos</h2>
       <h3 id="pdu">N-PDU</h3>
       <p>Contenido</p>
       <h3 id="idu">N-IDU</h3>
@@ -83,17 +83,17 @@
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="transmision">Transmisión de los datos</h2>
+    <h2 id="transmision" class="titulo2">Transmisión de los datos</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="formato">Formato de los datos</h2>
+    <h2 id="formato" class="titulo2">Formato de los datos</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="operaciones">Operaciones sobre los datos</h2>
+    <h2 id="operaciones" class="titulo2">Operaciones sobre los datos</h2>
       <h3 id="bloqueo">Bloqueo y desbloqueo</h3>
       <p>Contenido</p>
       <h3 id="concatenacion">Concatenación y separación</h3>
