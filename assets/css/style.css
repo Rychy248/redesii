@@ -66,14 +66,14 @@ body h1, body h2, body p, body h3{
 }
 
 .titulo2 {
-  color: red;
-  background-color: sandybrown;
+  color: white;
+  background-color: #490b79;
 
 }
 
 .titulo3 {
   color: red;
-  background-color: goldenrod;
+  background-color: #300650;
   padding: 12px 15px;
   border-radius: 5px;
   outline: none;
