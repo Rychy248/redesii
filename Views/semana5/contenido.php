@@ -1,12 +1,9 @@
 <div>
   <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
-<<<<<<< HEAD
     <h1 class="titulo2">Parciales</h1>
-=======
     <h1>S E M A N A - 5</h1>
     <h1>Parciales</h1>
->>>>>>> 1d5f44ce0c8973dcbdf267dbb2de53e32d6fc4ab
   </div>
 
   <!-- #Contenido -->

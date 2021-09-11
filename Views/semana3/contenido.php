@@ -15,42 +15,18 @@
 
   <!-- #Contenido -->
   <div>
-<<<<<<< HEAD
     <h2 id="fisica" class="titulo2">Física</h2>
-    <p>Contenido</p>
-  </div>
-  <!-- #Contenido -->
-  <div>
-    <h2 id="logica" class="titulo2">Lógica</h2>
-    <p>Contenido</p>
-  </div>
-  <!-- #Contenido -->
-  <div>
-    <h2 id="usos" class="titulo2">Usos de las redes de Computadoras</h2>
-    <p>Contenido</p>
-  </div>
-  <!-- #Contenido -->
-  <div>
-    <h2 id="negocios" class="titulo2">Aplicaciones en los negocios</h2>
-    <p>Contenido</p>
-  </div>
-  <!-- #Contenido -->
-  <div>
-    <h2 id="domesticas" class="titulo2">Aplicaciones domésticas</h2>
-    <p>Contenido</p>
-=======
-    <h2 id="fisica">Física</h2>
     <p>Se refiere a las conexiones físicas e identifica cómo se interconectan los terminales y dispositivos de infraestructura, como los routers, los switches y los puntos de acceso inalámbrico. Las topologías físicas generalmente son punto a punto o en estrella.</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="logica">Lógica</h2>
+    <h2 id="logica" class="titulo2">Lógica</h2>
     <p>Se refiere a la forma en que una red transfiere tramas de un nodo al siguiente. Esta disposición consta de conexiones virtuales entre los nodos de una red. Los protocolos de capa de enlace de datos definen estas rutas de señales lógicas. La topología lógica de los enlaces punto a punto es relativamente simple, mientras que los medios compartidos ofrecen métodos de control de acceso al medio diferentes.</p>
     <p>La capa de enlace de datos “ve” la topología lógica de una red al controlar el acceso de datos a los medios. Es la topología lógica la que influye en el tipo de trama de red y control de acceso a los medios que se utilizan.</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="usos">Usos de las redes de Computadoras</h2>
+    <h2 id="usos" class="titulo2">Usos de las redes de Computadoras</h2>
     <p>El objetivo básico de una red de computadoras es enlazar dos o más dispositivos para que exista comunicación entre ellos o para compartir información, es decir,  hacer que todos los programas, datos y equipos estén disponibles para cualquiera de la red que lo solicite, sin importar la localización del sistema y del usuario</p> 
     <h3>Principales objetivos de las redes de computadoras:</h3>
     <ul>
@@ -68,26 +44,27 @@
         <p>Esto se logra a través del envío y recibimiento de impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos.<p>
     </ul>
   </div>
+ 
   <!-- #Contenido -->
   <div>
-    <h2 id="negocios">Aplicaciones en los negocios</h2>
+    <h2 id="negocios" class="titulo2">Aplicaciones en los negocios</h2>
     <p>Las empresas también pueden utilizar las redes sociales de la publicidad en forma de anuncios publicitarios y de texto. Dado que las empresas operan a nivel mundial, las redes sociales pueden hacer que sea más fácil mantener el contacto con personas en todo el mundo.</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="domesticas">Aplicaciones domésticas</h2>
+    <h2 id="domesticas" class="titulo2">Aplicaciones domésticas</h2>
     <p>Una red doméstica es la conexión de dos o más computadoras, impresoras y otros dispositivos en tu hogar. Con una red doméstica, todo el hogar puede compartir una conexión de Internet con varios dispositivos para que todas las personas puedan tener acceso a Internet al mismo tiempo. Puedes compartir el acceso a impresoras, archivos, carpetas y otros dispositivos hardware como los sistemas de juego. Hay dos tipos de redes, la red alámbrica y Wi-Fi (red inalámbrica), entre cada dispositivo. En tu casa puedes tener dispositivos conectados con cables o dispositivos inalámbricos.</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="tarea">Tarea de la semana</h2>
+    <h2 id="tarea" class="titulo2">Tarea de la semana</h2>
     <h3>Captura de Red en Cisco</h3>
     <p><i>Crear una red wiffi utilizando computadoras y moviles, Cisco Packet tracer y enviar su archivo almacenado en la nube</i></p>
     <a href="https://drive.google.com/file/d/1TBYVVGaNq4Whm4GXXaBTCKBcnOGaiBR1/view?usp=sharing " target="_blank">Enlace del proyecto en DRIVE</a>
     <div>
     <img src="assets/img/semana3.png" style="border-radius: 4px; padding: 5px; width: 100%;" alt="Captura de cisco Packed Tracer">
     </div>
->>>>>>> 1d5f44ce0c8973dcbdf267dbb2de53e32d6fc4ab
+
   </div>
   <!-- #Scroll en página -->
   <div>

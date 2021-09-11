@@ -104,9 +104,13 @@
   <div>
     <h2 id="tarea"class="titulo2" >Tarea de la semana</h2>
     <p>Tarea de la semana Infografía de la linea del tiempo de las redes de las computadoras</p>
-    <p><a href="https://www.easel.ly/browserEasel/13434669" target="_blank">Ver infografía trabajada</a></p>
-    <iframe width="613" height="792" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://www.easel.ly/index/embedFrame/easel/13434669"></iframe>
+    <div>
+      <p><a href="https://www.easel.ly/browserEasel/13434669" target="_blank">Ver infografía trabajada</a></p>
+      <iframe width="613" height="792" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://www.easel.ly/index/embedFrame/easel/13434669"></iframe>
+    </div>
+    <div>
       <img src="../../assets/img/infografia.jpg" alt="Infografia">
+    </div>
   </div>
 
   <!-- #Scroll en página -->
