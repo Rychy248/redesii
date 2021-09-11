@@ -1,6 +1,7 @@
 <div>
   <!--#HEADER, TÍTULO Y E INDICE -->
   <div>
+    <h1>S E M A N A - 2</h1>
     <h1>Clasificación de Redes</h1>
     <ol>
       <li><a href="#clasificacion">Clasificación</a></li>
@@ -17,7 +18,7 @@
   <div>
     <h2 id="clasificacion">Clasificación</h2>
     <p>Antes que nada, aquí hay un video que habla sobre la clasificación de las redes</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GqIFy_0di_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+    <iframe width="100%" height="600px" src="https://www.youtube.com/embed/GqIFy_0di_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
   
   <!-- #Contenido -->
   <div>
@@ -64,9 +65,10 @@
     <div style="width: 100%; height: 100%; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embeddedchart/a6e9c123-7e88-411d-b455-88e42fbc95a5" id="qVp.AFI7ZIR3"></iframe></div>
     <h3>Captura de Red en Cisco</h3>
     <p><i>Crear una red wiffi utilizando 3 pcs y 2 Dispositivos moviles con Cisco Packet tracer y enviar su archivo almacenado en la nube</i></p>
+    <a href="https://drive.google.com/file/d/15oSYy0nRPTECmd1fDX9EXK0nM0xIfGbk/view?usp=sharing" target="_blank">Enlace del proyecto en DRIVE</a>
     <div>
     <img src="assets/img/semana2.png" style="border-radius: 4px; padding: 5px; width: 100%;" alt="Captura de cisco Packed Tracer">
-  </div>
+    </div>
   </div>
   
   <!-- #Scroll en página -->
