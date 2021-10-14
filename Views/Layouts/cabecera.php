@@ -3,7 +3,7 @@
   <h2>Redes de computadoras II</h2>
 </div>
 <div class="container">
-
+<!-- 
 <table>
         <tr>
           <th>
@@ -41,6 +41,6 @@
         </tr>
 
 
-  </table>
+  </table> -->
 
 </div>

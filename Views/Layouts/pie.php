@@ -1,4 +1,4 @@
-<footer class="p-3 mb-2 bg-white text-dark">
+<!-- <footer class="p-3 mb-2 bg-white text-dark">
   <br>
   <br>
   <div class="text-center" style="background-color: rgba(0,0,0,0.5); border-radius=5px;">
@@ -8,4 +8,4 @@
     <br>
   </div>
 
-</footer>
+</footer> -->
