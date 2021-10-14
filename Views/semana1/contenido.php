@@ -595,7 +595,11 @@ p.copy {
 	  	</div>
 	  	<div id="info">
 		  <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
+<<<<<<< HEAD
 		  <p class="copy">&copy; 2021 Todos los derechos reservador para richy gay</p>
+=======
+		  <p class="copy">&copy; 2014</p>
+>>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
 	  	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -603,7 +607,11 @@ p.copy {
 
 
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
     <a href="#definicion">| Definición | </a>
     <a href="#origenes">Origenes y evolución | </a>
     <a href="#arpanet">ARPANET | </a>
@@ -625,4 +633,8 @@ p.copy {
 </nav>
 
 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
+>>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
