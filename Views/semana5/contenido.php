@@ -432,7 +432,7 @@ p.copy {
   <!-- #Contenido -->
   <div>
     <p>Esta semana fue dedicada a parciales, pero acá dejamos un video para relajarse despues de tanta teoría</p>
-    <iframe width="100%" height="600px" src="https://www.youtube.com/embed/oQyFFTh_YGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="margin-left:40px" width="90%" height="500px" src="https://www.youtube.com/embed/oQyFFTh_YGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <!-- #Scroll en página -->
@@ -440,6 +440,7 @@ p.copy {
 
   </div>
 
+<<<<<<< HEAD
    
       </div>
       <div id="features">
@@ -454,3 +455,17 @@ p.copy {
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
+=======
+<br>
+<br>
+  <!-- #Avance de semanas-->
+  <nav aria-label="Page navigation example">
+  <ul class="pagination text-center pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="?controller=semana1&&action=contenido">semana 1</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana5&&action=contenido">semana 5</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana6&&action=contenido">semana 6</a></li>
+  
+  </ul>
+</nav>
+</div>
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9

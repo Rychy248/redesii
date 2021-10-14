@@ -469,7 +469,7 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
-    <h2 id="definicion" class="titulo2">Definición</h2>
+    <h2 id="definicion" class="titulo2 modal-title col-2 text-center ">Definición</h2>
     <p>El modelo de interconexión de sistemas abiertos (ISO/IEC 7498-1), conocido como “modelo OSI”, (en inglés, Open Systems Interconnection) es un modelo de referencia para los protocolos de la red (no es una arquitectura de red), creado en el año 1980 por la Organización Internacional de Normalización. Se ha publicado desde 1983 por la Unión Internacional de Telecomunicaciones (UIT) y, desde 1984, la Organización Internacional de Normalización (ISO) también lo publicó con estándar. Su desarrollo comenzó en 1977.</p>
     <p>Es un estándar que tiene por objetivo conseguir interconectar sistemas de procedencia distinta para que estos pudieran intercambiar información sin ningún tipo de impedimentos debido a los protocolos con los que estos operaban de forma propia según su fabricante.</p>
     <p>El modelo OSI está conformado por 7 capas o niveles de abstracción. Cada uno de estos niveles tendrá sus propias funciones para que en conjunto sean capaces de poder alcanzar su objetivo final. Precisamente esta separación en niveles hace posible la intercomunicación de protocolos distintos al concentrar funciones específicas en cada nivel de operación.</p>
@@ -477,14 +477,14 @@ p.copy {
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="historia" class="titulo2">Historia</h2>
+    <h2 id="historia" class="titulo2 modal-title col-2 text-center">Historia</h2>
     <p>A principios de 1980 el desarrollo de redes originó desorden en muchos sentidos. Se produjo un enorme crecimiento en la cantidad y tamaño de las redes. A medida que las empresas tomaban conciencia de las ventajas de usar tecnologías de conexión, las redes se agregaban o expandían a casi la misma velocidad con la que se introducían las nuevas tecnologías de red.</p>
     <p>A mediados de 1980, estas empresas comenzaron a sufrir las consecuencias de la rápida expansión. De la misma forma en que las personas que no hablan un mismo idioma tienen dificultades para comunicarse, las redes que utilizaban diferentes especificaciones e implementaciones no podían intercambiar información. El mismo problema surgía con las empresas que desarrollaban tecnologías de conexiones propietarias (una tecnología es llamada «propietaria» cuando su implementación, (ya sea de software o hardware) está sujeta a un copyright. Esto supone que una empresa controla esta tecnología y las empresas que quieran utilizarla en sus sistemas tienen que pagar derechos por su uso). Las tecnologías de conexión que respetaban reglas propietarias en forma estricta no podían comunicarse con tecnologías que usaban reglas propietarias diferentes e incluso con las que usaban reglas de conexión copyleft.</p>
     <p>Para enfrentar el problema de incompatibilidad de redes, la ISO investigó modelos de conexión como la red de Digital Equipment Corporation (DECnet), la Arquitectura de Sistemas de Red (Systems Network Architecture, SNA) y TCP/IP, a fin de encontrar un conjunto de reglas aplicables de forma general a todas las redes. Con base en esta investigación, la ISO desarrolló un modelo de red para ayudar a los fabricantes a crear redes que sean compatibles con otras redes.</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="referencia" class="titulo2">Modelo de referencia OSI</h2>
+    <h2 id="referencia" class="titulo2 modal-title col-5 text-center">Modelo de referencia OSI</h2>
     <p>Es un estándar desarrollado en 1980 por la ISO,1​ una federación global de organizaciones que representa aproximadamente a 160 países. El núcleo de este estándar es el modelo de referencia OSI, una normativa formada por siete capas que define las diferentes fases por las que deben pasar los datos para viajar de un dispositivo a otro sobre una red de comunicaciones</p>.
     <p>Siguiendo el esquema de este modelo se crearon numerosos protocolos. El advenimiento de protocolos más flexibles donde las capas no están tan desmarcadas y la correspondencia con los niveles no era tan clara puso a este esquema en un segundo plano. Sin embargo se usa en la enseñanza como una manera de mostrar cómo puede estructurarse una «pila» de protocolos de comunicaciones.4</p>​
     <p>El modelo especifica el protocolo que debe usarse en cada capa, y suele hablarse de modelo de referencia ya que se usa como una gran herramienta para la enseñanza de comunicación de redes</p>.
@@ -655,7 +655,7 @@ p.copy {
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="arquitectura" class="titulo2">Arquitectura de capas</h2>
+    <h2 id="arquitectura" class="titulo2 modal-title col-4 text-center">Arquitectura de capas</h2>
 
       <h3 id="capa1">Capa 1: Capa física</h3>
       <p>Es la capa más baja del modelo OSI. Es la que se encarga de la topología de red y de las conexiones globales de la computadora hacia la red, se refiere tanto al medio físico como a la forma en la que se transmite la información y de las redes.></sup>​</p>
@@ -701,7 +701,7 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
-    <h2 id="nemotecnica" class="titulo2">Regla nemotécnica</h2>
+    <h2 id="nemotecnica" class="titulo2 modal-title col-3 text-center">Regla nemotécnica</h2>
     <p>A fin de facilitar el aprendizaje y memorización de los nombres de las capas que componen el modelo; una regla sencilla consiste en memorizarlas como una sigla nemotécnica: FERTSPA, que en inglés sonaría como First Spa, primer spa en castellano, el cual se define de la siguiente manera:</p>
     <dl><dd><b>F</b>ísica</dd>
     <dd><b>E</b>nlace</dd>
@@ -714,7 +714,7 @@ p.copy {
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="unidades" class="titulo2">Unidades de datos</h2>
+    <h2 id="unidades" class="titulo2 modal-title col-3 text-center">Unidades de datos</h2>
       <p>El intercambio de información entre dos capas OSI consiste en que cada capa en el sistema fuente le agrega información de control a los datos, y cada capa en el sistema de destino analiza y quita la información de control de los datos como sigue:</p>
       <p>Si una computadora (A) desea enviar datos a otra (B), en primer término los datos deben empaquetarse a través de un proceso denominado encapsulamiento, es decir, a medida que los datos se desplazan a través de las capas del modelo OSI, reciben encabezados, información final y otros tipos de información.</p>
       <h3 id="pdu">N-PDU</h3>
@@ -725,7 +725,7 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
-    <h2 id="transmision" class="titulo2">Transmisión de los datos</h2>
+    <h2 id="transmision" class="titulo2 modal-title col-4 text-center">Transmisión de los datos</h2>
     <p>La capa de aplicación recibe el mensaje del usuario y le añade una cabecera constituyendo así la PDU de la capa de aplicación. La PDU se transfiere a la capa de aplicación del modo destino, este elimina la cabecera y entrega el mensaje al usuario.</p>
     <p>Para ello ha sido necesario todo este proceso:</p>
     <ol>
@@ -739,14 +739,14 @@ p.copy {
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="formato" class="titulo2">Formato de los datos</h2>
+    <h2 id="formato" class="titulo2 modal-title col-3 text-center">Formato de los datos</h2>
     <p>Otros datos reciben una serie de nombres y formatos específicos en función de la capa en la que se encuentren, debido a como se describió anteriormente la adhesión de una serie de encabezados e información final. Los formatos de información son los que muestra el gráfico:</p>
     <img alt="PDUs.PNG" src="//upload.wikimedia.org/wikipedia/commons/f/fc/PDUs.PNG" decoding="async" width="546" height="331" data-file-width="546" data-file-height="331">
   </div>
 
   <!-- #Contenido -->
   <div>
-    <h2 id="operaciones" class="titulo2">Operaciones sobre los datos</h2>
+    <h2 id="operaciones" class="titulo2 modal-title col-4 text-center">Operaciones sobre los datos</h2>
       <p>En determinadas situaciones es necesario realizar una serie de operaciones sobre las PDU y así facilitar su transporte, debido a que son demasiado grandes o bien porque son demasiado pequeñas y estaríamos desaprovechando la capacidad del enlace.</p>
       <h3 id="bloqueo">Bloqueo y desbloqueo</h3>
         <p>El bloqueo hace corresponder varias (p)-SDU en una (p)-PDU.</p>
@@ -756,12 +756,12 @@ p.copy {
         <p>La separación identifica varias (N)-PDU que están contenidas en una sola (N-1)-SDU.</p>
   </div>
   <div>
-    <h2 id="tarea" class="titulo2">Tarea de la semana</h2>
+    <h2 id="tarea" class="titulo2 modal-title col-3 text-center">Tarea de la semana</h2>
     <h3>Infografía sobre el Modelo OSI</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-top: 250.0000%;
+    <div style="position: relative; width: 70%; height: 0; padding-top: 250.0000%;
        padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
         border-radius: 8px; will-change: transform;">
-      <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+      <iframe loading="lazy" style="position: absolute; width: 60%; height: 50%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
       src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEmZY-K0-A&#x2F;view?embed">
       </iframe>
     </div>
@@ -770,6 +770,7 @@ p.copy {
   </div>
   <!-- #Scroll en página -->
   <!-- #Avance de semanas-->
+<<<<<<< HEAD
    
       </div>
       <div id="features">
@@ -786,3 +787,17 @@ p.copy {
   <script src="js/app.js"></script>
 
 
+=======
+
+
+  <nav aria-label="Page navigation example">
+  <ul class="pagination text-center pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="?controller=semana3&&action=contenido">semana 3</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana4&&action=contenido">semana 4</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana5&&action=contenido">semana 5</a></li>
+  
+  </ul>
+</nav>
+
+</div>
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9

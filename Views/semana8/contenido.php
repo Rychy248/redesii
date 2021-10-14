@@ -433,12 +433,12 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
-    <h2 id="guiado" class="titulo2">Guiado</h2>
+    <h2 id="guiado" class="titulo2 modal-title col-2 text-center">Guiado</h2>
     <p>Contenido</p>
   </div>
  <!-- #Contenido -->
  <div>
-    <h2 id="noguiado" class="titulo2">No Guiado</h2>
+    <h2 id="noguiado" class="titulo2 modal-title col-2 text-center">No Guiado</h2>
     <p>Contenido</p>
   </div>
 
@@ -451,6 +451,7 @@ p.copy {
 
   <!-- #Avance de semanas-->
 
+<<<<<<< HEAD
   <div>
     <p>
       <span><a href="?controller=semana7&&action=contenido">Semana 7</a></span>
@@ -473,3 +474,14 @@ p.copy {
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
+=======
+  <nav aria-label="Page navigation example">
+  <ul class="pagination text-center pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="?controller=semana1&&action=contenido">semana 1</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana8&&action=contenido">semana 8</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana9&&action=contenido">semana 9</a></li>
+  
+  </ul>
+</nav>
+</div>
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
