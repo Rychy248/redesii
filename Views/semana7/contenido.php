@@ -433,12 +433,12 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
-    <h2 id="transmision" class="titulo2">Transmisión</h2>
+    <h2 id="transmision" class="titulo2 modal-title col-2 text-center">Transmisión</h2>
     <p>Contenido</p>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="direccionamiento" class="titulo2">Direccionamiento Físico</h2>
+    <h2 id="direccionamiento" class="titulo2 modal-title col-4 text-center">Direccionamiento Físico</h2>
     <p>Contenido</p>
   </div>
 
@@ -447,9 +447,10 @@ p.copy {
     <a href="#transmision">| Transmisión |</a>
     <a href="#direccionamiento">Direccionamiento Físico |</a>
   </div>
-
+<br>
 
   <!-- #Avance de semanas-->
+
   <div>
     <p>
       <span><a href="?controller=semana6&&action=contenido">Semana 6</a></span>
@@ -468,8 +469,19 @@ p.copy {
       </div>
       <div id="info">
       <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-      <p class="copy">&copy; 2014</p>
+      <p class="copy">&copy; 2021</p>
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
+
+  <nav aria-label="Page navigation example">
+  <ul class="pagination text-center pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="?controller=semana1&&action=contenido">semana 1</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana7&&action=contenido">semana 7</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana8&&action=contenido">semana 8</a></li>
+  
+  </ul>
+</nav>
+</div>
+

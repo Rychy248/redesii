@@ -435,31 +435,48 @@ p.copy {
 
   <!-- #Contenido -->
   <div>
+<<<<<<< HEAD
 
     <h2 id="definicion" class="titulo2" class="btnt">Definición</h2>
     <h2 class="p" Hover Me</h2>
     <p>Una red de computadoras (también llamada red de ordenadores o red informática) es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+=======
+    <h2 id="definicion" class="titulo2 modal-title col-2 text-center ">Definición</h2>
+    <p class="text-justify">Una red de computadoras (también llamada red de ordenadores o red informática) es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
     Como en todo proceso de comunicación, se requiere de un emisor, un mensaje, un medio y un receptor. La finalidad principal para la creación de una red de ordenadores es compartir los recursos y la información en la distancia, asegurar la confiabilidad y la disponibilidad de la información, aumentar la velocidad de transmisión de los datos y reducir el costo. Un ejemplo es Internet, el cual es una gran red de millones de ordenadores
     ubicados en distintos puntos del planeta interconectados básicamente para compartir información y recursos.</p>
     
-    <p>La estructura y el modo de funcionamiento de las redes informáticas actuales están definidos en varios estándares, siendo el más importante y extendido de todos ellos el modelo TCP/IP utilizado como base para el modelo de referencia OSI. Este último, concibe cada red como estructurada en siete capas con funciones concretas pero relacionadas entre sí (en TCP/IP se habla de cuatro capas). Debe recordarse que el modelo de referencia OSI es una abstracción teórica, que facilita la comprensión del tema, si bien se permiten ciertos desvíos respecto a dicho modelo.
+    <p class="text-justify text-center">La estructura y el modo de funcionamiento de las redes informáticas actuales están definidos en varios estándares, siendo el más importante y extendido de todos ellos el modelo TCP/IP utilizado como base para el modelo de referencia OSI. Este último, concibe cada red como estructurada en siete capas con funciones concretas pero relacionadas entre sí (en TCP/IP se habla de cuatro capas). Debe recordarse que el modelo de referencia OSI es una abstracción teórica, que facilita la comprensión del tema, si bien se permiten ciertos desvíos respecto a dicho modelo.
     Existen multitud de protocolos repartidos por cada capa, los cuales también están regidos por sus respectivos estándares.</p>
   </div>  
   <!-- #Contenido -->
+<<<<<<< HEAD
   <div>
     <h2 id="origenes" class="titulo2">Origenes</h2>
     <p>En el video se habla sobre el origen y evolución de las redes</p>
     <iframe style="margin-left: 90px;" width="70%" height="500px" src="https://www.youtube.com/embed/BJeuWQ3f2q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+=======
+  <div style="text-align:center">
+    <h2 id="origenes" class="titulo2 modal-title col-2 text-center">Origenes</h2>
+    <p class="text-justify">En el video se habla sobre el origen y evolución de las redes</p>
+    <iframe width="60%" height="500px" src="https://www.youtube.com/embed/BJeuWQ3f2q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="arpanet" class="titulo2">ARPANET</h2>
-    <p>
+    <h2 id="arpanet" class="titulo2 modal-title col-2 text-center">ARPANET</h2>
+    <p class="text-justify">
     ARPANET fue una red de computadoras creada por encargo del Departamento de Defensa de los Estados Unidos (DOD) para utilizarla como medio de comunicación entre las diferentes instituciones académicas y estatales. El primer nodo fue creado en la Universidad de California en Los Ángeles (UCLA), y fue la espina dorsal de Internet hasta 1990, tras finalizar la transición al modelo de protocolos TCP/IP, iniciada en 1983.
     ARPANET son las siglas de Advanced Research Projects Agency Network, es decir, la Red de la Agencia de Proyectos de Investigación Avanzada,1​ organismo conocido ahora como Agencia de Proyectos de Investigación Avanzados de Defensa.
     </p>
+<<<<<<< HEAD
     <h3 class="titulo2">Origen</h3>
     <p>El concepto de una red de ordenadores, capaz de comunicar usuarios en distintas computadoras,
+=======
+    <h3 class="titulo3 modal-title col-1 text-center">Origen</h3>
+    <p class="text-justify">El concepto de una red de ordenadores, capaz de comunicar usuarios en distintas computadoras,
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
     fue formulado en abril de 1963 por Joseph C. R. Licklider, de Bolt, Beranek y Newman (BBN),
     en una serie de notas que discutían la idea de «red galáctica». En octubre del mismo año,
     Licklider fue convocado por la ARPA (Agencia de Investigación de Proyectos Avanzados),
@@ -468,13 +485,13 @@ p.copy {
     trabajo alguno. Mientras tanto, en la RAND Corporation desde 1958, Paul Baran estaba trabajando en
     una red segura de comunicaciones capaz de sobrevivir a un ataque con armas nucleares, con fines militares.</p>
     
-    <p>Sus resultados se publicaron a partir de 1960, y en ellos se describían dos ideas clave:
+    <p class="text-justify">Sus resultados se publicaron a partir de 1960, y en ellos se describían dos ideas clave:
     El uso de una red descentralizada con múltiples caminos entre dos puntos;</p>
     <ul>
     <li>La división de mensajes completos en fragmentos que seguirían caminos distintos.</li>
     <li>La red estaría capacitada para responder ante sus propios fallos.</li>
     </ul>
-    <p>El resumen final de este esquema se presentó
+    <p class="text-justify">El resumen final de este esquema se presentó
     en 1962 y se publicó en 1964. En la misma época, Leonard Kleinrock ya trabajaba en el concepto de almacenar y
     reenviar mensajes en su tesis doctoral en el Instituto Tecnológico de Massachusetts (MIT). Esto incluía un
     importante análisis de la teoría de colas aplicada a las redes de comunicaciones (publicado como libro en 1964).
@@ -489,8 +506,13 @@ p.copy {
     Al final de 1967, Taylor contactó a Lawrence G. Roberts (del Laboratorio Lincoln, en el MIT) con el objeto de que liderase el proyecto de creación de la nueva red. Roberts ya conocía a Davies gracias a la mencionada conferencia sobre multiplexación. El concepto original de Roberts consistía en utilizar la técnica de multiplexación en el tiempo, uniendo máquinas directamente con cables telefónicos. En una de las primeras reuniones (1967), muchos participantes no estaban dispuestos a que sus computadoras tuvieran que gestionar líneas telefónicas. Uno de estos participantes, Wesley A. Clark, tuvo la idea de usar pequeñas computadoras separados solo para gestionar los enlaces de comunicaciones. Esta idea permitió descargar de trabajo a las computadoras principales, además de aislar la red de la distinta naturaleza de cada computadora. Sobre esta base comenzó el diseño inicial de ARPANET. Roberts presentó su primer plan en un simposio de 1967. En este mismo evento se encontraba presente Roger Scantlebury, colaborador de Davies. Gracias a este
     encuentro discutieron la idea de la conmutación de paquetes, y permitió a Roberts conocer el trabajo de Baran.</p>
     
+<<<<<<< HEAD
     <h3 class="titulo2">Nacimiento de ARPANET</h3>
     <p>En el verano de 1968, ya existía un plan completo y aprobado por ARPA de manera que se celebró un concurso con
+=======
+    <h3 class="titulo3 modal-title col-3 text-center">Nacimiento de ARPANET</h3>
+    <p class="text-justify">En el verano de 1968, ya existía un plan completo y aprobado por ARPA de manera que se celebró un concurso con
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
     140 potenciales proveedores. Sin embargo, solamente doce de ellos presentaron propuestas. En 1969, el contrato se
     adjudicó a la empresa Bolt, Beranek y Newman (conocida como BBN Technologies o simplemente BBN) con quienes había trabajado Licklider, creador del concepto de «red galáctica». El 29 de octubre de 1969 se transmite el primer mensaje a través de ARPANET y en menos de un mes (21 de noviembre) se establece el primer enlace entre la Universidad de California, los Ángeles y el Instituto de Investigaciones de Stanford.2​
     La oferta de BBN seguía el plan de Roberts rápidamente. Las pequeñas computadoras se denominaron «procesadores de la interfaz de mensajes» (IMP). Estos implementaban la técnica de almacenar y reenviar, y utilizaban un módem telefónico para conectarse a otros equipos (a una velocidad de 50 kbits por segundo). Las computadoras centrales se conectaban a los IMP mediante puertos en serie a medida.
@@ -499,8 +521,9 @@ p.copy {
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="conceptos" class="titulo2">Conceptos Básicos de Redes</h2>
+    <h2 id="conceptos" class="titulo2  col-3 text-center">Conceptos Básicos de Redes</h2>
     <ol>
+<<<<<<< HEAD
       <li><h3 class="titulo2">Internet</h3>
         <p>Empezamos por la base, ¿qué es Internet? Podemos definirla como un conjunto descentralizado de redes de comunicación que están interconectadas entre sí, lo que permite navegar de una a otra sin problemas.</p>
         <p>Su base está en la familia de protocolos TCP/IP, que garantiza que las redes físicas heterogéneas que la componen formen una red lógica única de alcance mundial. Como sabrán muchos de nuestros lectores sus orígenes se remontan a 1969, fecha en la que surgió ARPANET, la primera conexión entre computadoras.<p>
@@ -520,22 +543,48 @@ p.copy {
       <li><h3 class="titulo2">World Wide Web</h3>
       <p>Es un sistema estandarizado de distribución de documentos de hipertexto o hipermedia interconectados y accesibles a través de Internet. Su creación fue posible gracias al HTML, como dijimos anteriormente.</p>
       <p>Con un navegador web podemos visualizar páginas web que pueden contener textos, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces, que permiten acceder a diferentes recursos referenciados de forma directa. En resumen, es la base de la navegación moderna en Internet que todos conocemos, y que permite saltar de un lado a otro a través de enlaces.</p>
+=======
+      <li><h3 class="titulo3 modal-title col-2 text-center">Internet</h3>
+        <p class="text-justify">Empezamos por la base, ¿qué es Internet? Podemos definirla como un conjunto descentralizado de redes de comunicación que están interconectadas entre sí, lo que permite navegar de una a otra sin problemas.</p>
+        <p class="text-justify">Su base está en la familia de protocolos TCP/IP, que garantiza que las redes físicas heterogéneas que la componen formen una red lógica única de alcance mundial. Como sabrán muchos de nuestros lectores sus orígenes se remontan a 1969, fecha en la que surgió ARPANET, la primera conexión entre computadoras.<p>
+      </li>
+      <li><h3 class="titulo3 modal-title col-2 text-center" >Tarjeta de red</h3>
+        <p class="text-justify">Es un componente informático con forma de tarjeta que se conecta en la placa base de un ordenador y que cuenta con los componentes necesarios para que el equipo se conecte a Internet o a una red local, ya sea de forma inalámbrica o cableada.</p>
+        <p class="text-justify">Las tarjetas de red actuales cuentan con soporte tanto de conexiones cableadas (Ethernet) como inalámbricas (Wi-Fi).</p>
+      </li>
+      <li><h3 class="titulo3 modal-title col-1 text-center">Router</h3>
+      <p class="text-justify">Es un dispositivo externo que actúa como sistema encargado de establecer la conexión a Internet, ya sea de forma inalámbrica o cableada.</p>
+      <p class="text-justify">Para llevar a cabo su trabajo envía y recibe de forma constante paquetes de datos, lo que le permite interconectar subredes. Dicho de una manera sencilla, es el encargado de establecer la comunicación y la coordinación entre el PC que se conecta a una página web o servicio y el servidor que aloja esa web o presta dicho servicio.</p>
+      </li>
+      <li><h3 class="titulo3 modal-title col-1 text-center">HTML</h3>
+      <p class="text-justify">Es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Estas siglas se refieren a «HyperText Markup Language», y es un estándar que sirve como estructura y código básico para la definición del contenido de una página web.</p>
+      <p class="text-justify">Dicho de una manera más sencilla, es el estándar que se ha impuesto en la visualización de páginas web, el que todos los navegadores actuales han adoptado y el que ha hecho posible que Internet sea una red global unificada.</p>
+      </li>
+      <li><h3 class="titulo3 modal-title col-3 text-center">World Wide Web</h3>
+      <p class="text-justify">Es un sistema estandarizado de distribución de documentos de hipertexto o hipermedia interconectados y accesibles a través de Internet. Su creación fue posible gracias al HTML, como dijimos anteriormente.</p>
+      <p class="text-justify">Con un navegador web podemos visualizar páginas web que pueden contener textos, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces, que permiten acceder a diferentes recursos referenciados de forma directa. En resumen, es la base de la navegación moderna en Internet que todos conocemos, y que permite saltar de un lado a otro a través de enlaces.</p>
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
       </li>
     </ol>
   </div>
   <!-- #Contenido -->
   <div>
-    <h2 id="tarea"class="titulo2" >Tarea de la semana</h2>
+    <h2 id="tarea"class="titulo2 modal-title col-3 text-center" >Tarea de la semana</h2>
     <p>Tarea de la semana Infografía de la linea del tiempo de las redes de las computadoras</p>
     <div>
-      <p><a href="https://www.easel.ly/browserEasel/13434669" target="_blank">Ver infografía trabajada</a></p>
+      <p class="text-justify"><a href="https://www.easel.ly/browserEasel/13434669" target="_blank">Ver infografía trabajada</a></p>
       <iframe width="613" height="792" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://www.easel.ly/index/embedFrame/easel/13434669"></iframe>
     </div>
     <div>
+<<<<<<< HEAD
       <img class="img" src="../../assets/img/infografia.jpg" alt="Infografia">
+=======
+      <img src="../../assets/img/infografia.jpg" class="img-fluid img-thumbnail" alt="Infografia">
+>>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
     </div>
   </div>
   <div>
+<<<<<<< HEAD
   </div>
 </div>
 	  	</div>
@@ -546,11 +595,34 @@ p.copy {
 	  	</div>
 	  	<div id="info">
 		  <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-		  <p class="copy">&copy; 2014</p>
+		  <p class="copy">&copy; 2021 Todos los derechos reservador para richy gay</p>
 	  	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/app.js"></script>
 
 
+
+
+    <a href="#definicion">| Definición | </a>
+    <a href="#origenes">Origenes y evolución | </a>
+    <a href="#arpanet">ARPANET | </a>
+    <a href="#conceptos">Conceptos Básicos de Redes | </a>
+    <a href="#tarea">Tarea de la semana | </a>
+    <br>
+  </div>
+<br>
+<br>
+<br>
+  <!-- #Avance de semanas-->
+
+  <nav aria-label="Page navigation example">
+  <ul class="pagination text-center pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="?controller=semana1&&action=contenido">semana 1</a></li>
+    <li class="page-item"><a class="page-link" href="?controller=semana2&&action=contenido">semana 2</a></li>
+  
+  </ul>
+</nav>
+
+</div>
 
