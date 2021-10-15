@@ -10,10 +10,10 @@
 
 	<!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
 	<!--hoja que yo agregue-->
-	<link rel="stylesheet" href="assets/css/style.css" />
+	<!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
 </head>
 <body class="p-3 mb-2 bg-info text-dark">
-	
+
 	<?php if ( $controller == 'login'):?>
 		<header> <?php require_once('unregisterCabecera.php'); ?> </header>
 	<?php  else: ?>
