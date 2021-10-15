@@ -433,7 +433,7 @@ p.copy {
       </div>
       <div id="info">
       <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-      <p class="copy">&copy; 2014</p>
+      <p class="copy">&copy; 2021 Ryhy &copy; 2021  Willy</p>
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>

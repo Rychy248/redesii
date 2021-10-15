@@ -441,11 +441,7 @@ p.copy {
 <br>
 
   <!-- #Avance de semanas-->
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
  
 </div>
       </div>
@@ -456,16 +452,12 @@ p.copy {
       </div>
       <div id="info">
       <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-      <p class="copy">&copy; 2021</p>
+      <p class="copy">&copy; 2021 Ryhy &copy; 2021  Willy</p>
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
   <div>
   <nav aria-label="Page navigation example">
   <ul class="pagination text-center pagination justify-content-center">
@@ -476,8 +468,3 @@ p.copy {
   </ul>
 </nav>
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109

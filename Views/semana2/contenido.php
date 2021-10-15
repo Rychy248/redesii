@@ -439,15 +439,9 @@ p.copy {
   
   <!-- #Contenido -->
   <div>
-<<<<<<< HEAD
-    <h2 id="clasificacion" class="titulo2">Clasificación</h2>
-    <p>Antes que nada, aquí hay un video que habla sobre la clasificación de las redes</p>
-    <iframe style="margin-left: 150px;" width="70%" height="500px" src="https://www.youtube.com/embed/GqIFy_0di_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
-=======
     <h2 id="clasificacion " class="titulo2 modal-title col-2 text-center">Clasificación</h2>
     <p class="text-justify ">Antes que nada, aquí hay un video que habla sobre la clasificación de las redes</p>
     <iframe width="70%" height="500px" class="justify-content-center" src="https://www.youtube.com/embed/GqIFy_0di_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
->>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
   
   <!-- #Contenido -->
   <br>
@@ -500,8 +494,7 @@ p.copy {
     <img src="assets/img/semana2.png" style="border-radius: 4px; padding: 5px; width: 100%;" alt="Captura de cisco Packed Tracer">
     </div>
   </div>
-  
-<<<<<<< HEAD
+
 
 
 	  	</div>
@@ -512,11 +505,8 @@ p.copy {
 	  	</div>
 	  	<div id="info">
 		  <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-<<<<<<< HEAD
-		  <p class="copy">&copy; 2021</p>
-=======
-		  <p class="copy">&copy; 2014</p>
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
+      <p class="copy">&copy; 2021 Ryhy &copy; 2021  Willy</p>
+
 	  	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -524,11 +514,7 @@ p.copy {
 
 
 
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
   <!-- #Scroll en página -->
   <div>
     <a href="#clasificacion">Clasificación</a>
@@ -555,8 +541,3 @@ p.copy {
 </nav>
 
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109

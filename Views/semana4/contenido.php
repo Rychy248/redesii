@@ -770,12 +770,7 @@ p.copy {
   </div>
   <!-- #Scroll en página -->
   <!-- #Avance de semanas-->
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
-   
       </div>
       <div id="features">
       </div>
@@ -784,17 +779,12 @@ p.copy {
       </div>
       <div id="info">
       <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-      <p class="copy">&copy; 2021 Todos los derechos reservados</p>
+      <p class="copy">&copy; 2021 Ryhy &copy; 2021  Willy</p>
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/app.js"></script>
 
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
 
 
   <nav aria-label="Page navigation example">
@@ -807,8 +797,3 @@ p.copy {
 </nav>
 
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109

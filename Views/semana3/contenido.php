@@ -490,7 +490,7 @@ p.copy {
     </div>
   </div>
   <div>
-<<<<<<< HEAD
+
 </div>
 
       </div>
@@ -501,11 +501,9 @@ p.copy {
       </div>
       <div id="info">
       <a href="#top" class="up"><i class="fa fa-chevron-up"></i></a>
-<<<<<<< HEAD
-      <p class="copy">&copy; 2021 Todos los derechos reservados</p>
-=======
-      <p class="copy">&copy; 2014</p>
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
+
+      <p class="copy">&copy; 2021 Ryhy &copy; 2021  Willy</p>
+
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -513,11 +511,7 @@ p.copy {
 
 
 
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
       <a href="#fisica">| Física |</a>
       <a href="#logica">Lógica |</a>
       <a href="#usos">Usos de las redes de Computadoras |</a>
@@ -541,8 +535,3 @@ p.copy {
 
 
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e8dc144ce3e4bc7cc969e01c296e458d3c27fd9
->>>>>>> 8b17356d5ecb1a6dc5eb01f1308a9df21ce45109
